@@ -1,3 +1,11 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 div {
   position: relative;
   display: block;
@@ -18,26 +26,6 @@ h1 {
   color: #333333;
 }
 
-.item {
-  width: 180px;
-  height: 180px;
-  margin: 20px;
-  background-color: #0000ff;
-  border-radius: 4px;
-  float: left;
-  color: #ffffff;
-  padding: 10px;
-}
-
-.active-drag-item {
-  opacity: 0.6;
-}
-
-.active-drop-zone {
-  background-color: #fff000;
-  color: #000000;
-}
-
 #dropper{
   width:100%;
   height: 200px;
@@ -47,4 +35,12 @@ h1 {
 .file-drop-handler {
   width: 100%;
   height: 100%;
+}
+
+.viewer{
+  text-align: center;
+}
+
+.viewer nav {
+  margin: 20px;
 }

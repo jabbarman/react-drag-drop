@@ -1,0 +1,23 @@
+.item {
+    float: left;
+    width: 210px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 8px #cecece;
+  }
+
+  .active-drag-item {
+    opacity: 0.6;
+  }
+  
+  .active-drop-zone {
+    background-color: #333333;
+  }
+  
+  .active-drop-zone * {
+    pointer-events: none;
+  }

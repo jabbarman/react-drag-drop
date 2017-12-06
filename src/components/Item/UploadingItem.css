@@ -1,0 +1,30 @@
+.uploading-item-title {
+    font-size: 1em;
+    color: #cecece;
+    font-weight: normal;
+}
+
+.uploading-item-progress-box {
+    width: 190px;
+    height: 180px;
+    background-position: center center;
+    box-shadow: 0 0 5px #cecece;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploading-item-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #00bcf2;
+    transition: all 0.2s ease;
+}
+
+.uploading-item-text {
+    color: #cecece;
+}

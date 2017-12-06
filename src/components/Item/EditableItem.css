@@ -1,0 +1,44 @@
+.edit-item-title {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid transparent;
+    margin: 10px 0;
+    padding: 5px 2px;
+}
+
+.edit-item-title:hover {
+    border: 1px solid #cecece;
+}
+
+.edit-item-title:focus {
+    border: 1px solid #333333;
+}
+
+.edit-item-image {
+    width: 190px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 0 5px #cecece;
+    margin: 15px auto;
+}
+
+.edit-item-delete {
+    float: right;
+    background-color: #ffffff;
+    color: #da534c;
+    border-radius: 4px;
+    border: 1px solid #da534c;
+    padding: 3px 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.875em;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.edit-item-delete:hover {
+    background-color: #da534c;
+    color: #ffffff;
+    opacity: 1;
+}

@@ -1,0 +1,17 @@
+.grid-title {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid transparent;
+    margin: 10px 0;
+    padding: 5px 2px;
+    font-size: 2em;
+}
+
+.grid-title:hover {
+    border: 1px solid #c0c0c0;
+}
+
+.grid-title:focus {
+    border: 1px solid #333333;
+}
